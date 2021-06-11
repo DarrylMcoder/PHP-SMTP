@@ -19,6 +19,7 @@
     <?php
       if(isset($_POST['to'])) :
     ?>
+    <?php endif ?>
     <?php
       require('../src/SMTP.php');
       require('../src/Exception.php');
@@ -73,6 +74,6 @@ try {
 }
       
     ?>
-    <?php endif ?> 
+    <?php  ?> 
   </body>
 </html>
